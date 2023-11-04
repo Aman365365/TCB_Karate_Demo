@@ -1,0 +1,18 @@
+{
+  "simulation": "Runner.ScalaClass",
+  "simulationId": "scalaclass",
+  "start": 1699062326906,
+  "description": "1",
+  "scenarios": ["createAndRead"],
+  "assertions": [
+{
+  "path": "createAndRead",
+  "target": "percentage of failed events",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "createAndRead: percentage of failed events is 0.0",
+  "actualValue": [0.0]
+}
+  ]
+}

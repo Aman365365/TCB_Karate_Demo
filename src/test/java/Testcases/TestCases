@@ -1,0 +1,6 @@
+TC-1: Google search page
+  1. Given https://www.google.com/ is opened
+  2. Then Google search textbox should be visible
+  3. And Enter 'karatelabs' in Google search textbox
+  4. When 'Google Search' button is clicked
+  5. Then Title should be "karatelabs - Google Search"

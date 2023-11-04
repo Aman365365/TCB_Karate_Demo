@@ -1,0 +1,1 @@
+Karate is an open-source unified test automation platform combining API testing, API performance testing, API mocks & UI testing. Karate customers typically save 80% time when writing tests for a single endpoint, use 60% less code, and tests execute faster and integrate seamlessly into existing infrastructure.

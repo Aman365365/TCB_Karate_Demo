@@ -1,0 +1,10 @@
+{
+  "simulation": "Runner.RampupConcurrentusers",
+  "simulationId": "rampupconcurrentusers",
+  "start": 1696492747517,
+  "description": "test",
+  "scenarios": ["getUsers"],
+  "assertions": [
+
+  ]
+}

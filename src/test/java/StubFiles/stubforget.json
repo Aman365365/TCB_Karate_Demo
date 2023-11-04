@@ -1,0 +1,25 @@
+{
+  "id" : "7ff7f875-b163-40e1-a40d-b19b659073d9",
+  "name" : "api_users",
+  "request" : {
+    "url" : "/api/users?page=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 301,
+    "headers" : {
+      "Date" : "Mon, 11 Sep 2023 09:47:58 GMT",
+      "Cache-Control" : "max-age=3600",
+      "Expires" : "Mon, 11 Sep 2023 10:47:58 GMT",
+      "Location" : "https://reqres.in/api/users?page=2",
+      "Report-To" : "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Q9gfPc3KpQE4shlZmHqjC0wwlYLejeXHf7z7uzdGsNLLSjfQQfZ551fbEUJyZWjh8%2F2qdkHSpNTX48vbPSLZ4YTxOr%2FecbRn%2Fe%2FVL1%2BgwDlv5z9DAcWRaY6bag%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "NEL" : "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "Vary" : "Accept-Encoding",
+      "Server" : "cloudflare",
+      "CF-RAY" : "804efe0c2acf3ba9-BOM"
+    }
+  },
+  "uuid" : "7ff7f875-b163-40e1-a40d-b19b659073d9",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

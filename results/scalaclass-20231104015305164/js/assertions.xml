@@ -1,0 +1,5 @@
+<testsuite name="Runner.ScalaClass" tests="1" errors="0" failures="1" time="0">
+<testcase name="createAndRead: percentage of failed events is 0.0" status="false" time="0">
+  <failure type="createAndRead">Actual value: 100.0</failure>
+</testcase>
+</testsuite>
