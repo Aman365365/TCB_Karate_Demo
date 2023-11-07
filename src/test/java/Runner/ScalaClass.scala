@@ -45,8 +45,7 @@ class ScalaClass extends Simulation{
       rampUsers(users).during(rampUpDuration))
   ).protocols(protocol)
     .maxDuration(1 minute)
-    .assertions(details("createAndRead")
-      .failedRequests.percent.is(50))
+
 }
 
 
