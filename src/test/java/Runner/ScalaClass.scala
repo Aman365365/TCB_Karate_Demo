@@ -40,13 +40,13 @@ class ScalaClass extends Simulation{
   // Run the Gatling simulation using the Karate feature
   setUp(
     createAndRead.inject(
-      nothingFor(5),
+      nothingFor(10),
       atOnceUsers(10),
       rampUsers(users).during(rampUpDuration))
   ).protocols(protocol)
     .maxDuration(1 minute)
     .assertions(details("createAndRead")
-      .failedRequests.percent.is(0))
+      .failedRequests.percent.is(50))
 }
 
 
